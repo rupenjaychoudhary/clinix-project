@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="index.html">
+  <title>Login Page</title>
+  <style>
+    /* internal css styles */
+    body {
+      background-image: url(assets/img/download.png);
+      background-size: cover;
+      background-color: #007d9e;
+      height: 500px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size:contain;
+      position: relative;
+    }
+
+    .login-box {
+      width: 350px;
+      height: 400px;
+      background: rgba(19, 18, 18, 0.5);
+      color: rgb(17, 16, 16);
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      box-sizing: border-box;
+      padding: 70px 30px;
+      border-radius: 15px;
+    }
+
+    .avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 100%;
+      position: absolute;
+      top: -50px;
+      left: calc(50% - 50px);
+    }
+
+    h1 {
+      margin: 0;
+      padding: 0 0 20px;
+      text-align: center;
+      font-size: 22px;
+    }
+
+    .login-box p {
+      margin: 0;
+      padding: 0;
+      font-weight: bold;
+    }
+
+    .login-box input {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .login-box input[type="text"],
+    input[type="password"] {
+      border: none;
+      border-bottom: 1px solid #fff;
+      background-color: #92d5da;
+      outline: none;
+      height: 40px;
+      color: #fff;
+      font-size: 16px;
+      border-radius: 20px;
+    }
+
+    .login-box input[type="submit"] {
+      border: none;
+      outline: none;
+      height: 40px;
+      background: #1c8adb;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 20px;
+      position: center;
+    }
+
+    .login-box input[type="submit"]:hover {
+      cursor: pointer;
+      background: #39aedc;
+      color: #000;
+    }
+
+    .login-box a {
+      color: rgb(76, 185, 179);
+      font-size: 14px;
+      font-weight: bold;
+      text-decoration: none;
+      padding-right: 50px;
+      text-align: center;
+    }
+
+    .button {
+      color: #1c8adb;
+      font-size: 14px;
+      font-weight: bold;
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="login-box">
+    <img src="assets/img/download.png" class="avatar">
+    <h1>Login</h1>
+    <form>
+      <p>Username</p>
+      <input type="text" name="" placeholder="Enter Username">
+      <p>Password</p>
+      <input type="password" name="" placeholder="Enter Password">
+      <button><a href="index.html">login</a></button><br>
+      <a href="#">Forget Password</a><br>
+      
+    </form>
+  </div>
+</body>
+
+</html>

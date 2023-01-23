@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Appointment Page</title>
+  <style>
+    /* internal CSS */
+    body {
+      background-color:#007d9e;
+      border-radius: 15px;
+    }
+
+    h1 {
+      text-align: center;
+      color: white;
+    }
+
+    form {
+      margin: 0 auto;
+      width: 80%;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+
+    input[type=text], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    a{
+      width: 100%;
+      background-color: #007d9e;
+      color: white;
+      padding: 10px 518px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+    }
+
+    a:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Make an Appointment</h1>
+  <form>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name..">
+
+    <label for="date">Date</label>
+    <input type="text" id="date" name="date" placeholder="Choose a date..">
+
+    <label for="time">Time</label>
+    <select id="time" name="time">
+      <option value="9am">9:00 AM</option>
+      <option value="10am">10:00 AM</option>
+      <option value="11am">11:00 AM</option>
+    </select>
+    <label for="time">Timing</label>
+    <select name="time" id="time">
+        <option value="morning">morning</option>
+        <option value="afternoon">afternoon</option>
+        <option value="evening">Evening</option>
+    </select>
+
+    <a href="index.html">Submit</a>
+     
+  </form>
+
+</body>
+</html>
